@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+ /*	border: 1px solid black;  */
+    width: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+body {
+	background-image: url('Hintergrund.jpg');
+	background-size: cover;
+}
+
+#Fixed {
+	position: fixed;
+	z-index: 100;
+}
+
+.box1 {
+	font-size: 2em;
+	border: 3px solid orange;
+	text-align: center;
+	width:20%;
+	height: 48px;
+	font-family: 'Lora';
+	font-weight: bold;
+	float: left;
+	margin-top: -16px;
+	margin-bottom: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
+}
+
+
+#Nav_Link1, #Nav_Link3, #Nav_Link5 {
+	background-color: lightskyblue;
+}
+
+#Nav_Link2, #Nav_Link4 {
+	background-color: lemonchiffon;
+}
+
+#Abstand {
+	width: 100%;
+	height:50px;
+}
+
+.Überschrift {
+	text-align: center;	
+}
+
+#Titel {
+	font-size: 4em;
+    margin-top: 20px;
+	font-family: 'Righteous';
+	color: green;
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;	
+	text-transform: uppercase;
+
+}
+
+#Untertitel {
+	font-size: 2em;
+	margin-top:-2%;
+	font-family: 'Pacifico';
+	color: green;
+    background: -webkit-linear-gradient( yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;	
+}
+
+.box2 {
+	height: 600px;
+	float: left;
+	font-family: 'Indie Flower';
+}
+
+#JustDoIt {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	width: 20%;
+	height: 600px;
+	background-image: url('https://i.pinimg.com/236x/6f/f2/83/6ff2835b9e153ac508c6aaea566e4928--logo-site-watercolor-splatter.jpg');
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Permanent+Marker';
+	font-weight: 800;
+	font-size: 140px;
+	line-height: 1.4em;
+	border-radius: 70px;
+	opacity: 0.7;
+}
+
+#BeschText1 {
+	font-weight: bold;
+}
+
+#Beschreibung {	
+    height: 570px;
+	text-align: center;
+	width: 40%;
+	padding: 26px;
+	font-size: 26px;
+	font-family: 'Indie Flower';
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+
+#Beschreibung h1 {
+	font-family: 'Lora';
+	color: white;
+}
+
+#Beschreibung ul {
+	padding: 0px;
+	text-align: left;
+	margin-left: 300px;	
+	margin-top: -20px;
+	width: 200px;
+}
+
+#BeschText2 {
+	margin-top: -10px;
+}
+
+#Beschreibung button {
+	padding: 0px;
+	width: 110px;
+	height: 28px;
+	font-family: 'Lora';
+	font-size: 18px;
+	color: #cd0000;
+	background-color: transparent;
+	border-color: transparent;
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#MakeYourDreams {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 20%;
+	height: 600px;
+	background-image: url('https://www.myposter.de/magazin/wp-content/uploads/2015/06/shutterstock_70876954.jpg');
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Permanent+Marker';
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 1.4em;
+	border-radius: 70px;
+	opacity: 0.7;
+}
+
+.Tabelle {
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+	background-color: rgb(255, 204, 102);
+	font-size: 25px;
+	opacity: 0.8;
+}
+
+.Tabelle th {	
+    border: 2px inset black;
+	width: 8.33333333%;
+	height: 20%;
+}
+
+.Tabelle td {
+	border: 2px inset black; 
+	width: 8.33333333%;
+	height: 15%;
+}
+
+th.ZeileKlein  {
+    height: 6%;
+}
+
+td.AnfangsTabelle {
+	width: 25%;
+	font-weight: bold;
+}
+
+td.Spalte1, th.Spalte1 {
+	background-color: rgb(153, 255, 179);
+}
+
